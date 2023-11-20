@@ -1,50 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="stilo.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="stilo.css">
 </head>
+
 <body>
-        <div>
-            <div>
-                <!--- menu-->
-            </div>
-            <div>
-                <!--logo-->
-            </div>
+  <!--menu-->
+  <header>
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white bg-dark">
+              <a class="badge-dark" href="index.html">Home</a>
+            </li>
+            <li class="list-group-item text-white bg-dark">
+              <a class="badge-dark" href="catalogo.html">Perquisa</a>
+            </li>
+            <li class="list-group-item text-white bg-dark">
+              <a class="badge-dark" href="catalogocolecionador.html">Filmes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <h1 id="flex">FLIX</h1>
+        <H1 id="hub">HUB</H1>
+        <img src="./fotos/logo projeto final.png" alt="logo" class="logo mx-2">
+      </nav>
+    </div>
+  </header>
 
-        </div>
-        <div>
-            <!--carrossel-->
-        </div>
-        <div>
-            <div>
-                <p>filmes em alta</p>
-            </div>
-            <div class="home-filmes">
-                <div><!--filme 1--></div>
-                <div><!--filme 2--></div>
-                <div><!--filme 3--></div>
-            </div>
-        </div>
-        <div>
-            <div>
-                <p>series em alta</p>
-            </div>
-            <div class="home-filmes">
-                <div><!--filme 1--></div>
-                <div><!--filme 2--></div>
-                <div><!--filme 3--></div>
-            </div>
-        </div>
-        <footer>
 
-        </footer>
 
-   
+  <!--Carrosel-->
+
+  <div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./fotos/barbie-banner.jpg" alt="barbie">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./fotos/batman-banner.jpg" alt="cidade de deus">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./fotos/avatar-banner.jpg" alt="home aranha">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+    </div>
+  </div>
+
+  <h2>Filmes em alta</h2>
+  <div class="div-borda">
+    <div class="cards">
+
+      <img src="./fotos/image7.png" class="card-img-top mx-2" alt="...">
+
+
+      <img src="./fotos/image4.png" class="card-img-top mx-2" alt="..." class="banner-meio">
+
+
+      <img src="./fotos/image6.png" class="card-img-top mx2" alt="...">
+
+    </div>
+  </div>
+
+  <h2>Filmes em alta</h2>
+  <div class="div-borda">
+    <div class="cards">
+
+      <img src="./fotos/image7.png" class="card-img-top mx-2" alt="...">
+
+
+      <img src="./fotos/image4.png" class="card-img-top mx-2" alt="..." class="banner-meio">
+
+
+      <img src="./fotos/image6.png" class="card-img-top mx2" alt="...">
+
+    </div>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
