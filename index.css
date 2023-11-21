@@ -23,7 +23,6 @@ margin-left: 8px;
 margin-right: 8px;
 background-color: #4b4a54;
 height: 169;
-width: 95%;
 margin-top: 16px;
 margin-bottom: 16px;
 }
@@ -52,4 +51,7 @@ margin-top: 20px;
 }
 .nome-site{
     display: flex;
+}
+.banner{
+    height: ;
 }
