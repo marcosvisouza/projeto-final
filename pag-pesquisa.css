@@ -27,3 +27,18 @@ h2 {
 .nome-site {
     display: flex;
 }
+.form{
+    display: flex;
+}
+.pesquisar{
+    background-color: black;
+    justify-content: center;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+    justify-content: center;
+}

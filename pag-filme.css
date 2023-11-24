@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(0, 0, 0);
+    
+}
+p{
+    color: white;
+}
+h2{
+    color: #ff5c00;
+}
+.home-filmes {
+    background-color: #4b4a54;
+    height: 50px;
+}
+
+.logo {
+    width: 36px;
+    height: 36px;
+}
+
+.flix {
+    color: white;
+
+}
+
+.hub {
+    color: #ff5c00;
+}
+
+.h2-topo {
+    margin-top: 20px;
+}
+
+.nome-site {
+    display: flex;
+}
+.imagem-principal{
+    height: 282px;
+    width: 184px;
+}
+.imagem-meio{
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;  
+}
+
+.conteudo{
+    background-color: #4b4a54;
+}
+.texto{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+@media (min-width: 750px) {
+    .dados-do-filmes{
+        display: flex;
+    }
+    .imagem-principal{
+        height: 747px;
+        width: 490px;
+    }
+    .div-imagem{
+        margin-right: 66px;
+        margin-left: 132px;
+    }
+    .div-dados{
+        margin-right: 132px;
+        margin-left: 66px;
+    }
+  }
