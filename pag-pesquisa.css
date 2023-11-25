@@ -1,7 +1,8 @@
-.logo{
+.logo {
     width: 36px;
     height: 36px;
 }
+
 body {
     background-color: rgb(0, 0, 0);
 }
@@ -16,6 +17,7 @@ h2 {
     height: 36px;
 
 }
+
 .flix {
     color: white;
 
@@ -24,21 +26,63 @@ h2 {
 .hub {
     color: #ff5c00;
 }
+
 .nome-site {
     display: flex;
 }
-.form{
+
+.form {
     display: flex;
 }
-.pesquisar{
+
+.pesquisar {
     background-color: black;
     justify-content: center;
 }
-.link{
+
+.link {
     text-decoration: none;
     color: white;
     width: 86%;
     margin-left: 7%;
     margin-right: 7%;
+    justify-content: center;
+}
+
+.div-borda {
+    
+    background-color: #2f2f2f;
+    height: 169;
+    width: 340px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img {
+    height: 138px;
+    width: 84px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.caixa-de-generos {
+    background-color: #2f2f2f;
+}
+
+.classes {
+    background-color: #4b4a54;
+    color: white;
+    border-color: #4b4a54;
+    width: 152px;
+    height: 36px;
+    margin: 5px;
+}
+
+.conjunto-divs {
     justify-content: center;
 }

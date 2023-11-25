@@ -12,43 +12,74 @@
 </head>
 
 <body>
- <!--menu-->
- <header>
-  <div class="pos-f-t">
-    <div class="collapse" id="navbarToggleExternalContent">
-      <div class="bg-dark p-4">
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item text-white bg-dark">
-            <a class="badge-dark link" href="index.html">Home</a>
-          </li>
-          <li class="list-group-item text-white bg-dark">
-            <a class="badge-dark link" href="pag-pesquisa.html">Perquisa</a>
-          </li>
-          <li class="list-group-item text-white bg-dark">
-            <a class="badge-dark link" href="filmes.html">Filmes</a>
-          </li>
-        </ul>
+  <!--menu-->
+  <header>
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white bg-dark">
+              <a class="badge-dark link" href="index.html">Home</a>
+            </li>
+            <li class="list-group-item text-white bg-dark">
+              <a class="badge-dark link" href="pag-pesquisa.html">Perquisa</a>
+            </li>
+            <li class="list-group-item text-white bg-dark">
+              <a class="badge-dark link" href="filmes.html">Filmes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="nome-site">
+          <h1 class="flix">FLIX</h1>
+          <H1 class="hub">HUB</H1>
+        </div>
+        <img src="./fotos/logo projeto final.png" alt="logo" class="logo mx-2">
+      </nav>
+    </div>
+  </header>
+
+  <div class="navbar pesquisar">
+    <form class="form-inline form">
+      <input class="form-control mr-sm-2 bg-white botao-pesquisar" type="search" placeholder="Pesquisar"
+        aria-label="Pesquisar">
+    </form>
+  </div>
+
+  <div class="conjunto-divs">
+    <div class="pesquisado-recetemente">
+      <div class="div-borda" id="recentes">
+        <div class="imagem"><img src="./fotos/image1.png" alt="" class="img"></div>
+        <div class="imagem"><img src="./fotos/image4.png" alt="" class="img img-meio"></div>
+        <div class="imagem"><img src="./fotos/image5.png" alt="" class="img"></div>
       </div>
     </div>
-    <nav class="navbar navbar-dark bg-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Alterna navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="nome-site">
-        <h1 class="flix">FLIX</h1>
-      <H1 class="hub">HUB</H1>
+    <div class="generos-filmes div-borda">
+      <div class="caixa-de-generos">
+        <div class="genero">
+          <a href="genero.html"><button type="button" class="btn btn-primary classes">Ação</button></a>
+          <button type="button" class="btn btn-primary classes">Animação</button>
+        </div>
+        <div class="genero">
+          <button type="button" class="btn btn-primary classes">Comédia</button>
+          <button type="button" class="btn btn-primary classes">Drama</button>
+        </div>
+        <div class="genero">
+          <button type="button" class="btn btn-primary classes">Ficção Científica</button>
+          <button type="button" class="btn btn-primary classes">Romance</button>
+        </div>
+        <div class="genero">
+          <button type="button" class="btn btn-primary classes">Suspense</button>
+          <button type="button" class="btn btn-primary classes">Terror</button>
+        </div>
+      </div>
     </div>
-      <img src="./fotos/logo projeto final.png" alt="logo" class="logo mx-2">
-    </nav>
   </div>
-</header>
-
-<div class="navbar pesquisar">
-  <form class="form-inline form">
-    <input class="form-control mr-sm-2 bg-white botao-pesquisar" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-  </form>
-</div>
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -22,16 +22,13 @@ width: 100%;
 margin-left: 8px;
 margin-right: 8px;
 background-color: #4b4a54;
-height: 169;
 width: 95%;
+justify-content: center;
 }
-.cards{
-align-items: center;
+.img{
 height: 138px;
 width: 91px;
-display: flex;
-
-flex-basis: auto;
+margin: 5%;
 }
 .card-img-top{
     height: 138;
