@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h2 {
+    margin-left: 8px;
+    color: #ff5c00;
+}
+
+.logo {
+    width: 36px;
+    height: 36px;
+
+}
+
+.flix {
+    color: white;
+
+}
+
+.hub {
+    color: #ff5c00;
+}
+
+.h2-topo {
+    margin-top: 20px;
+}
+.link-nome{
+  text-decoration: none;
+}
+.nome-site {
+    display: flex;
+}
+.fundo-menu{
+  height: 55px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.div-borda {
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #4b4a54;
+    width: 94%;
+    display: flex;
+}
+.img{
+  width: 91px;
+  height: 138;
+}
+.filmes {
+  height: 138px;
+  width: 91px;
+  margin: 10px;
+}
+@media screen and (min-width: 706px) {
+  .img {
+      height: 230px;
+      width: 150px;
+  
+  }
+  
+  .filmes {
+      height: 230px;
+      width: 150px;
+      margin: 20px;
+  }
+  .fundo-menu{
+    height: 65px;
+}
+}

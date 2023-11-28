@@ -1,0 +1,110 @@
+.logo {
+    width: 36px;
+    height: 36px;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h2 {
+    margin-left: 8px;
+    color: #ff5c00;
+}
+.logo {
+    width: 36px;
+    height: 36px;
+
+}
+
+.flix {
+    color: white;
+
+}
+
+.hub {
+    color: #ff5c00;
+}
+
+.nome-site {
+    display: flex;
+}
+.fundo-menu{
+    height: 55px;
+}
+.form {
+    display: flex;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+    justify-content: center;
+}
+.link-nome{
+    text-decoration: none;
+}
+
+.div-borda {
+    
+    background-color: #2f2f2f;
+    width: 324px;padding: 0;
+    margin-top: 70px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+
+}
+.caixa-de-generos {
+    background-color: #2f2f2f;
+}
+
+.classes {
+    background-color: #4b4a54;
+    color: white;
+    border-color: #4b4a54;
+    width: 152px;
+    height: 36px;
+    margin: 5px;
+}
+.conjunto-divs {
+    justify-content: center;
+}
+
+.classes hover{
+    background-color: #2f2f2f;
+    color: white;
+}
+.conjunto-filmes{
+    display: flex;
+   justify-content: space-between;
+   margin-left: 30px;
+   margin-right: 30px;
+
+}
+.secundaria{
+    display: flex;
+}
+@media (max-width: 770px) {
+    h4{
+        font-size: 17px;
+    }
+}
+@media (min-width: 770px){
+   
+    .classes{
+        width: 312px;
+        height: 67px;
+        margin: 15px;
+    }
+    .fundo-menu{
+        height: 65px;
+    }
+    .div-borda{
+        width: 700px;
+    }
+
+}
