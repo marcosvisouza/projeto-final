@@ -108,3 +108,96 @@ h2 {
     }
 
 }
+
+footer {
+    background-color: #4b4a54;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #ff5c00;
+}
+
+.imgFooter {
+    width: 45px;
+}
+
+.Direitos {
+    color: white;
+}
+
+.FLIX {
+    color: white;
+}
+
+.HUB {
+    color: #ff5c00;
+}
+
+.TamanhoFooter {
+    width: 200px;
+
+}
+
+.LogoOFC {
+    width: 70px;
+    margin-bottom: 30px;
+}
+
+.ListaFooter {
+    list-style: none;
+    text-decoration: none;
+}
+
+.ListaFooterDiv {
+    margin-bottom: 20px;
+}
+
+.voltar {
+    color: white;
+}
+
+.FooterDiv2 {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+@media (min-width: 706px) {
+    .voltar {
+        margin: 10px;
+    }
+
+    .FooterDiv {
+        gap: 700px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .FooterDiv2 {
+        gap: 70px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+
+    .TamanhoFooter {
+        width: 150px;
+    }
+
+    .FLIX {
+        font-size: 70px;
+    }
+
+    .HUB {
+        font-size: 70px;
+    }
+}
