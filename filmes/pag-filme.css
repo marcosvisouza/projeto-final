@@ -1,13 +1,13 @@
 body {
     background-color: rgb(0, 0, 0);
-    text-decoration: none;
+    
 }
-
-h1 {
-    margin-left: 3%;
+p{
+    color: white;
+}
+h2{
     color: #ff5c00;
 }
-
 .home-filmes {
     background-color: #4b4a54;
     height: 50px;
@@ -16,7 +16,6 @@ h1 {
 .logo {
     width: 36px;
     height: 36px;
-
 }
 
 .flix {
@@ -35,51 +34,56 @@ h1 {
 .nome-site {
     display: flex;
 }
-
-.link {
+.links{
     text-decoration: none;
     color: white;
 }
-
-
-.div-borda {
-    margin-left: 3%;
-    margin-right: 3%;
-    background-color: #4b4a54;
-    width: 94%;
-    display: flex;
-
-}
-
-.img {
-    height: 138px;
-    width: 91px;
-
-}
 .link-nome{
     text-decoration: none;
-  }
-
-.filmes {
-    height: 138px;
-    width: 91px;
-    margin: 10px;
 }
-@media screen and (min-width: 706px) {
-    .img {
-        height: 230px;
-        width: 150px;
-    
+.imagem-principal{
+    height: 282px;
+    width: 184px;
+}
+.imagem-meio{
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;  
+}
+
+.conteudo{
+    background-color: #4b4a54;
+}
+.texto{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.fundo-menu{
+    height: 55px;
+}
+@media (min-width: 750px) {
+    .dados-do-filmes{
+        display: flex;
     }
-    
-    .filmes {
-        height: 230px;
-        width: 150px;
-        margin: 20px;
+    .imagem-principal{
+        height: 560px;
+        width: 367px;
+    }
+    .div-imagem{
+        margin-right: 66px;
+        margin-left: 132px;
+    }
+    .div-dados{
+        margin-right: 132px;
+        margin-left: 66px;
     }
     .fundo-menu{
-      height: 65px;
-  }
+        height: 65px;
+    }
   }
 
   footer {
