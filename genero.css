@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,300;1,400&display=swap');
 body {
     background-color: rgb(0, 0, 0);
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+}
 
-}
-p{
-    color: white;
-}
-h2{
+h1 {
+    margin-left: 3%;
     color: #ff5c00;
 }
+
 .home-filmes {
     background-color: #4b4a54;
     height: 50px;
@@ -18,6 +18,7 @@ h2{
 .logo {
     width: 36px;
     height: 36px;
+
 }
 
 .flix {
@@ -36,56 +37,51 @@ h2{
 .nome-site {
     display: flex;
 }
-.links{
+
+.link {
     text-decoration: none;
     color: white;
+}
+
+
+.div-borda {
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #4b4a54;
+    width: 94%;
+    display: flex;
+
+}
+
+.img {
+    height: 138px;
+    width: 91px;
+
 }
 .link-nome{
     text-decoration: none;
-}
-.imagem-principal{
-    height: 282px;
-    width: 184px;
-}
-.imagem-meio{
-    margin-top: 26px;
-    display: flex;
-    justify-content: center;  
-}
+  }
 
-.conteudo{
-    background-color: #4b4a54;
+.filmes {
+    height: 138px;
+    width: 91px;
+    margin: 10px;
 }
-.texto{
-    margin-left: 8px;
-    margin-right: 8px;
-}
-.link{
-    text-decoration: none;
-    color: white;
-}
-.fundo-menu{
-    height: 55px;
-}
-@media (min-width: 750px) {
-    .dados-do-filmes{
-        display: flex;
+@media screen and (min-width: 706px) {
+    .img {
+        height: 230px;
+        width: 150px;
+    
     }
-    .imagem-principal{
-        height: 560px;
-        width: 367px;
-    }
-    .div-imagem{
-        margin-right: 66px;
-        margin-left: 132px;
-    }
-    .div-dados{
-        margin-right: 132px;
-        margin-left: 66px;
+    
+    .filmes {
+        height: 230px;
+        width: 150px;
+        margin: 20px;
     }
     .fundo-menu{
-        height: 65px;
-    }
+      height: 65px;
+  }
   }
 
   footer {
